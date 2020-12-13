@@ -24,7 +24,7 @@ class ProductDetailViewController: BaseViewController<ProductDetailViewModel> {
     
     override func setupView() {
         title = Localizer.productDetail.localized
-        view.backgroundColor = .gray
+        view.backgroundColor = .white
         productDetailView = ProductDetailView()
         
         view.addSubview(productDetailView)
