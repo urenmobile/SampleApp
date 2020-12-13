@@ -177,9 +177,9 @@
 		45CBCFDF258629D900E3BAA7 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				45CBCFE0258629D900E3BAA7 /* ProductDetail */,
-				45CBCFE4258629D900E3BAA7 /* Product */,
 				45CBCFE8258629D900E3BAA7 /* Base */,
+				45CBCFE4258629D900E3BAA7 /* Product */,
+				45CBCFE0258629D900E3BAA7 /* ProductDetail */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -188,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				45CBCFE1258629D900E3BAA7 /* ProductDetailRequest.swift */,
-				45CBCFE2258629D900E3BAA7 /* ProductDetailUseCase.swift */,
 				45CBCFE3258629D900E3BAA7 /* ProductDetailResponse.swift */,
+				45CBCFE2258629D900E3BAA7 /* ProductDetailUseCase.swift */,
 			);
 			path = ProductDetail;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 		45CBCFE4258629D900E3BAA7 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				45CBCFE5258629D900E3BAA7 /* ProductUseCase.swift */,
 				45CBCFE6258629D900E3BAA7 /* ProductRequest.swift */,
 				45CBCFE7258629D900E3BAA7 /* ProductResponse.swift */,
+				45CBCFE5258629D900E3BAA7 /* ProductUseCase.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -207,8 +207,8 @@
 		45CBCFE8258629D900E3BAA7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				45CBCFE9258629D900E3BAA7 /* BaseUseCase.swift */,
 				45CBCFEA258629D900E3BAA7 /* UseCase.swift */,
+				45CBCFE9258629D900E3BAA7 /* BaseUseCase.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";

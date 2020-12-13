@@ -30,27 +30,22 @@ class ProductCoreData: NSObject {
     }()
     
     private func insertItem(to indexPath: IndexPath) {
-        print("didChange insert \(indexPath)")
         insertItems.append(indexPath)
     }
     
     private func deleteItem(at indexPath: IndexPath) {
-        print("didChange delete \(indexPath)")
         deleteItems.append(indexPath)
     }
     
     private func reloadItem(at indexPath: IndexPath) {
-        print("didChange update \(indexPath)")
         reloadItems.append(indexPath)
     }
     
     private func moveItem(at indexPath: IndexPath, to newIndexPath: IndexPath) {
-        print("didChange move at \(indexPath) to \(newIndexPath)")
         moveItems.append((from: indexPath, newIndexPath))
     }
     
     private func performBatchUpdate() {
-        print("performBatchUpdate")
         let reloadableChanges = ReloadableChanges(insertItems: insertItems,
                                                   deleteItems: deleteItems,
                                                   reloadItems: reloadItems,
@@ -67,8 +62,6 @@ class ProductCoreData: NSObject {
 extension ProductCoreData: NSFetchedResultsControllerDelegate {
     
     func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
-        
-        print("didChange NSFetchedResultsControllerDelegate VM")
         
         switch type {
         case .insert:

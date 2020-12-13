@@ -241,10 +241,10 @@
 		456233182576B7A300F47370 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				45CBD084258636A900E3BAA7 /* CoreData */,
 				45A3B2BC2579694800CCB41A /* Base */,
-				45CBD0FC25864F8C00E3BAA7 /* Localization */,
 				45CBD0FF2586507000E3BAA7 /* Components */,
+				45CBD0FC25864F8C00E3BAA7 /* Localization */,
+				45CBD084258636A900E3BAA7 /* CoreData */,
 				4562343025780DBA00F47370 /* PresentationLayer */,
 				456233192576B7A300F47370 /* AppDelegate.swift */,
 				456233252576B7A400F47370 /* Assets.xcassets */,
