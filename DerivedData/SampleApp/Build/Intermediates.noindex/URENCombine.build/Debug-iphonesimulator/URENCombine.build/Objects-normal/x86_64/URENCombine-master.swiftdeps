@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
-options: "ede550b84168c87aba9e58e1cf73ae0f"
-build_time: [1607867640, 326165000]
+options: "25612ba91190b72e32b74f7a0824c317"
+build_time: [1607867993, 689616000]
 inputs:
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Cancellable.swift": [1607287413, 451171888]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Scheduler.swift": [1607264445, 965148722]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Subject.swift": [1607263410, 350042807]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Future.swift": [1607289655, 94988584]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/PassthroughSubject.swift": [1607856289, 710012784]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/AnyCancellable.swift": [1607854988, 876236144]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Publisher.swift": [1607262785, 471288324]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Subscribers.swift": [1607262833, 84174313]
-  "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/Combine/Locker.swift": [1607265041, 534596523]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Cancellable.swift": [1607287413, 451171888]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Scheduler.swift": [1607264445, 965148722]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Subject.swift": [1607263410, 350042807]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Future.swift": [1607289655, 94988584]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/PassthroughSubject.swift": [1607856289, 710012784]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/AnyCancellable.swift": [1607854988, 876236144]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Publisher.swift": [1607262785, 471288324]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Subscribers.swift": [1607262833, 84174313]
+  "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENCombine/URENCombine/Combine/Locker.swift": [1607265041, 534596523]

@@ -2,16 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../URENCombine/URENCombine.xcodeproj">
+      location = "group:URENCore/URENCore.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../URENCore/URENCore.xcodeproj">
+      location = "group:URENCombine/URENCombine.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../URENData/URENData.xcodeproj">
+      location = "group:URENDomain/URENDomain.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../URENDomain/URENDomain.xcodeproj">
+      location = "group:URENData/URENData.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SampleApp.xcodeproj">

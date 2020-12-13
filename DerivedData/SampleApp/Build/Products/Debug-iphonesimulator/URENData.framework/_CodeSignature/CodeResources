@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/URENCombine.framework/URENCombine</key>
 		<data>
-		UwS3LwpJDjr8RKwHYw1CxGdFl8E=
+		OWS1rOxULcJ1oC154oHC1NmLvi8=
 		</data>
 		<key>Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/URENDomain.framework/Frameworks/URENCombine.framework/URENCombine</key>
 		<data>
-		UwS3LwpJDjr8RKwHYw1CxGdFl8E=
+		OWS1rOxULcJ1oC154oHC1NmLvi8=
 		</data>
 		<key>Frameworks/URENDomain.framework/Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Frameworks/URENDomain.framework/URENDomain</key>
 		<data>
-		Na3si0k0rL24cAcPByVgGOp4aBU=
+		4hOdegrI+VCHBsZOlnNjhqL3Z6c=
 		</data>
 		<key>Frameworks/URENDomain.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/rwL8L4VqFar6SQRIPmYbpL3qFQ=
+		35mcs2OlMbcvj56MuwCI7rV3B2Q=
 		</data>
 		<key>Headers/URENData-Swift.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/URENData.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VbIUX13h/fgscn5kV6hvghXRk6c=
+		uvpv5gtamBrCE+oNWW0bJoNEtJQ=
 		</data>
 		<key>Modules/URENData.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		VbIUX13h/fgscn5kV6hvghXRk6c=
+		uvpv5gtamBrCE+oNWW0bJoNEtJQ=
 		</data>
 		<key>Modules/URENData.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/URENData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A+IxcSZiWxynYrLS6eHvSFofcdw=
+		vXqJaQx8tPdLNrvGk8rkh10nC2s=
 		</data>
 		<key>Modules/URENData.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/URENData.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		A+IxcSZiWxynYrLS6eHvSFofcdw=
+		vXqJaQx8tPdLNrvGk8rkh10nC2s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2goAeBmyf4JLwq1dQIJswtNT5xcgVVozimps01p3TAo=
+			bi8XmyFtCJiPZveOSjfLFCW3fDbEO7iznlQ/QwGnNVA=
 			</data>
 		</dict>
 		<key>Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2goAeBmyf4JLwq1dQIJswtNT5xcgVVozimps01p3TAo=
+			bi8XmyFtCJiPZveOSjfLFCW3fDbEO7iznlQ/QwGnNVA=
 			</data>
 		</dict>
 		<key>Frameworks/URENDomain.framework/Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGxMlL0zxJ+lDjclcQtUQuKJq1xzVYw4cf5kpNylO0E=
+			1jab2HuUI1alCh1kOF2uGGm0tdABX/D31gAn6Xs/3IU=
 			</data>
 		</dict>
 		<key>Frameworks/URENDomain.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6Q2PFeK/WxmtOODdrEP3WWzSyeXHHkN0/XF3VZrqhs=
+			V9IvNFmmur2uijnqK8DjNWpwXQgsMIhi9DCwZBCL0Js=
 			</data>
 		</dict>
 		<key>Headers/URENData-Swift.h</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oa9Snh3gr6xLzIlDus1IwJaHDgHHlhJYwcABfv0WK7o=
+			+FWnqUlnG8EhbdgMMchiiQxK9mpRESY5TUnDrF0NB4I=
 			</data>
 		</dict>
 		<key>Modules/URENData.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oa9Snh3gr6xLzIlDus1IwJaHDgHHlhJYwcABfv0WK7o=
+			+FWnqUlnG8EhbdgMMchiiQxK9mpRESY5TUnDrF0NB4I=
 			</data>
 		</dict>
 		<key>Modules/URENData.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kfNnRTbmV98mE7lGRGduktkSao0Lea42LjbCIvAkZJU=
+			B3rBZddpDt1AYQMNBmIBWQT+j9RYxHzURr4CQjefwU0=
 			</data>
 		</dict>
 		<key>Modules/URENData.swiftmodule/x86_64.swiftdoc</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kfNnRTbmV98mE7lGRGduktkSao0Lea42LjbCIvAkZJU=
+			B3rBZddpDt1AYQMNBmIBWQT+j9RYxHzURr4CQjefwU0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

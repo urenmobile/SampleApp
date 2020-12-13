@@ -180,7 +180,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/URENData/URENData/URENData.h"
 - "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
 - "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
 - "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"

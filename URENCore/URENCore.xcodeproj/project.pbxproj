@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CBCF542586289900E3BAA7 /* URENCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CBCF4A2586289900E3BAA7 /* URENCore.framework */; };
+		45CBCF592586289900E3BAA7 /* URENCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF582586289900E3BAA7 /* URENCoreTests.swift */; };
+		45CBCF5B2586289900E3BAA7 /* URENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CBCF4D2586289900E3BAA7 /* URENCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45CBCF6B258628CA00E3BAA7 /* URENImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF68258628CA00E3BAA7 /* URENImageView.swift */; };
+		45CBCF6C258628CA00E3BAA7 /* URENImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF68258628CA00E3BAA7 /* URENImageView.swift */; };
+		45CBCF6D258628CA00E3BAA7 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF69258628CA00E3BAA7 /* ImageManager.swift */; };
+		45CBCF6E258628CA00E3BAA7 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF69258628CA00E3BAA7 /* ImageManager.swift */; };
+		45CBCF6F258628CA00E3BAA7 /* ImageCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF6A258628CA00E3BAA7 /* ImageCacheProvider.swift */; };
+		45CBCF70258628CA00E3BAA7 /* ImageCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CBCF6A258628CA00E3BAA7 /* ImageCacheProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CBCF552586289900E3BAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CBCF412586289800E3BAA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CBCF492586289800E3BAA7;
+			remoteInfo = URENCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45CBCF4A2586289900E3BAA7 /* URENCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URENCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CBCF4D2586289900E3BAA7 /* URENCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URENCore.h; sourceTree = "<group>"; };
+		45CBCF4E2586289900E3BAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CBCF532586289900E3BAA7 /* URENCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URENCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CBCF582586289900E3BAA7 /* URENCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URENCoreTests.swift; sourceTree = "<group>"; };
+		45CBCF5A2586289900E3BAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CBCF68258628CA00E3BAA7 /* URENImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URENImageView.swift; sourceTree = "<group>"; };
+		45CBCF69258628CA00E3BAA7 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		45CBCF6A258628CA00E3BAA7 /* ImageCacheProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CBCF472586289800E3BAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CBCF502586289900E3BAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CBCF542586289900E3BAA7 /* URENCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CBCF402586289800E3BAA7 = {
+			isa = PBXGroup;
+			children = (
+				45CBCF4C2586289900E3BAA7 /* URENCore */,
+				45CBCF572586289900E3BAA7 /* URENCoreTests */,
+				45CBCF4B2586289900E3BAA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CBCF4B2586289900E3BAA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CBCF4A2586289900E3BAA7 /* URENCore.framework */,
+				45CBCF532586289900E3BAA7 /* URENCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CBCF4C2586289900E3BAA7 /* URENCore */ = {
+			isa = PBXGroup;
+			children = (
+				45CBCF67258628CA00E3BAA7 /* Core */,
+				45CBCF4D2586289900E3BAA7 /* URENCore.h */,
+				45CBCF4E2586289900E3BAA7 /* Info.plist */,
+			);
+			path = URENCore;
+			sourceTree = "<group>";
+		};
+		45CBCF572586289900E3BAA7 /* URENCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				45CBCF582586289900E3BAA7 /* URENCoreTests.swift */,
+				45CBCF5A2586289900E3BAA7 /* Info.plist */,
+			);
+			path = URENCoreTests;
+			sourceTree = "<group>";
+		};
+		45CBCF67258628CA00E3BAA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45CBCF68258628CA00E3BAA7 /* URENImageView.swift */,
+				45CBCF69258628CA00E3BAA7 /* ImageManager.swift */,
+				45CBCF6A258628CA00E3BAA7 /* ImageCacheProvider.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45CBCF452586289800E3BAA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CBCF5B2586289900E3BAA7 /* URENCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45CBCF492586289800E3BAA7 /* URENCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CBCF5E2586289900E3BAA7 /* Build configuration list for PBXNativeTarget "URENCore" */;
+			buildPhases = (
+				45CBCF452586289800E3BAA7 /* Headers */,
+				45CBCF462586289800E3BAA7 /* Sources */,
+				45CBCF472586289800E3BAA7 /* Frameworks */,
+				45CBCF482586289800E3BAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URENCore;
+			productName = URENCore;
+			productReference = 45CBCF4A2586289900E3BAA7 /* URENCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45CBCF522586289900E3BAA7 /* URENCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CBCF612586289900E3BAA7 /* Build configuration list for PBXNativeTarget "URENCoreTests" */;
+			buildPhases = (
+				45CBCF4F2586289900E3BAA7 /* Sources */,
+				45CBCF502586289900E3BAA7 /* Frameworks */,
+				45CBCF512586289900E3BAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CBCF562586289900E3BAA7 /* PBXTargetDependency */,
+			);
+			name = URENCoreTests;
+			productName = URENCoreTests;
+			productReference = 45CBCF532586289900E3BAA7 /* URENCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CBCF412586289800E3BAA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					45CBCF492586289800E3BAA7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					45CBCF522586289900E3BAA7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 45CBCF442586289800E3BAA7 /* Build configuration list for PBXProject "URENCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CBCF402586289800E3BAA7;
+			productRefGroup = 45CBCF4B2586289900E3BAA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CBCF492586289800E3BAA7 /* URENCore */,
+				45CBCF522586289900E3BAA7 /* URENCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CBCF482586289800E3BAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CBCF512586289900E3BAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CBCF462586289800E3BAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CBCF6B258628CA00E3BAA7 /* URENImageView.swift in Sources */,
+				45CBCF6F258628CA00E3BAA7 /* ImageCacheProvider.swift in Sources */,
+				45CBCF6D258628CA00E3BAA7 /* ImageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CBCF4F2586289900E3BAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CBCF6E258628CA00E3BAA7 /* ImageManager.swift in Sources */,
+				45CBCF70258628CA00E3BAA7 /* ImageCacheProvider.swift in Sources */,
+				45CBCF6C258628CA00E3BAA7 /* URENImageView.swift in Sources */,
+				45CBCF592586289900E3BAA7 /* URENCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45CBCF562586289900E3BAA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CBCF492586289800E3BAA7 /* URENCore */;
+			targetProxy = 45CBCF552586289900E3BAA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45CBCF5C2586289900E3BAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45CBCF5D2586289900E3BAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45CBCF5F2586289900E3BAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URENCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CBCF602586289900E3BAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URENCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45CBCF622586289900E3BAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URENCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CBCF632586289900E3BAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URENCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CBCF442586289800E3BAA7 /* Build configuration list for PBXProject "URENCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CBCF5C2586289900E3BAA7 /* Debug */,
+				45CBCF5D2586289900E3BAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CBCF5E2586289900E3BAA7 /* Build configuration list for PBXNativeTarget "URENCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CBCF5F2586289900E3BAA7 /* Debug */,
+				45CBCF602586289900E3BAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CBCF612586289900E3BAA7 /* Build configuration list for PBXNativeTarget "URENCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CBCF622586289900E3BAA7 /* Debug */,
+				45CBCF632586289900E3BAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CBCF412586289800E3BAA7 /* Project object */;
+}

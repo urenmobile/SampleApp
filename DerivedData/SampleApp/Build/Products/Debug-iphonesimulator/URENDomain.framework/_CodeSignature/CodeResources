@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/URENCombine.framework/URENCombine</key>
 		<data>
-		UwS3LwpJDjr8RKwHYw1CxGdFl8E=
+		OWS1rOxULcJ1oC154oHC1NmLvi8=
 		</data>
 		<key>Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/URENDomain.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		LRHDeeiEs0tjESSMA1BqE9sNVPM=
+		iYPqMQUeI1VJv9s7jjMQDloWsd8=
 		</data>
 		<key>Modules/URENDomain.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		LRHDeeiEs0tjESSMA1BqE9sNVPM=
+		iYPqMQUeI1VJv9s7jjMQDloWsd8=
 		</data>
 		<key>Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f8MGAdGMUapQvzHqetWqeAp+UYc=
+		EA8BvpDpsqScKUlG+g/CdvSw65w=
 		</data>
 		<key>Modules/URENDomain.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/URENDomain.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		f8MGAdGMUapQvzHqetWqeAp+UYc=
+		EA8BvpDpsqScKUlG+g/CdvSw65w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UwS3LwpJDjr8RKwHYw1CxGdFl8E=
+			OWS1rOxULcJ1oC154oHC1NmLvi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			2goAeBmyf4JLwq1dQIJswtNT5xcgVVozimps01p3TAo=
+			bi8XmyFtCJiPZveOSjfLFCW3fDbEO7iznlQ/QwGnNVA=
 			</data>
 		</dict>
 		<key>Frameworks/URENCombine.framework/_CodeSignature/CodeResources</key>
@@ -118,22 +118,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LRHDeeiEs0tjESSMA1BqE9sNVPM=
+			iYPqMQUeI1VJv9s7jjMQDloWsd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nk7esvW6GRjE8/x5j3iBXt3bxuOkL9k89DEIy6PP+Do=
+			M/pxnttQdkYU3jxDxozoH28IMG4bhYvjpe59clbA0b0=
 			</data>
 		</dict>
 		<key>Modules/URENDomain.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LRHDeeiEs0tjESSMA1BqE9sNVPM=
+			iYPqMQUeI1VJv9s7jjMQDloWsd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nk7esvW6GRjE8/x5j3iBXt3bxuOkL9k89DEIy6PP+Do=
+			M/pxnttQdkYU3jxDxozoH28IMG4bhYvjpe59clbA0b0=
 			</data>
 		</dict>
 		<key>Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f8MGAdGMUapQvzHqetWqeAp+UYc=
+			EA8BvpDpsqScKUlG+g/CdvSw65w=
 			</data>
 			<key>hash2</key>
 			<data>
-			nO/SbcX/ZEH9lPZa73NZUFV2q0bZ3YyMlrpq/Mq5HBg=
+			GmqcJPnSMLfEGMacrI4LhWkjCuxezJBLsLAvK8f//Bs=
 			</data>
 		</dict>
 		<key>Modules/URENDomain.swiftmodule/x86_64.swiftdoc</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f8MGAdGMUapQvzHqetWqeAp+UYc=
+			EA8BvpDpsqScKUlG+g/CdvSw65w=
 			</data>
 			<key>hash2</key>
 			<data>
-			nO/SbcX/ZEH9lPZa73NZUFV2q0bZ3YyMlrpq/Mq5HBg=
+			GmqcJPnSMLfEGMacrI4LhWkjCuxezJBLsLAvK8f//Bs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
