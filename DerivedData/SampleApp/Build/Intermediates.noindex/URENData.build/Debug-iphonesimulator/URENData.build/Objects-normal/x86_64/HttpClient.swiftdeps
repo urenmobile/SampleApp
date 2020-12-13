@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HttpClient"
+provides-nominal:
+- "8URENData10HttpClientC"
+provides-member:
+- ["8URENData10HttpClientC", ""]
+provides-dynamic-lookup:
+- "execute"
+- "jsonDecoder"
+- "session"
+- "shared"
+depends-top-level:
+- "..."
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Error"
+- "FloatLiteralType"
+- "Future"
+- "HTTPURLResponse"
+- "HttpClient"
+- "HttpClientError"
+- "HttpClientProvider"
+- "IntegerLiteralType"
+- "JSONDecoder"
+- "Model"
+- "URLSession"
+- "UrlRequestConvertible"
+- "jsonDecoder"
+- !private "session"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["SN", "contains"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deserialization"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "missingResponseData"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "server"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- ["Se", ""]
+- !private ["Se", "contains"]
+- ["SE", ""]
+- !private ["SE", "contains"]
+- !private ["SQ", ""]
+- !private ["SQ", "contains"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "default"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "success"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "deserialization"]
+- !private ["s5ErrorP", "missingResponseData"]
+- !private ["s5ErrorP", "server"]
+- !private ["11URENCombine6FutureC", "init"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "contains"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "default"]
+- !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "resume"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "success"]
+- ["8URENData10HttpClientC", "Error"]
+- ["8URENData10HttpClientC", "Future"]
+- !private ["8URENData10HttpClientC", "HTTPURLResponse"]
+- ["8URENData10HttpClientC", "HttpClient"]
+- !private ["8URENData10HttpClientC", "HttpClientError"]
+- ["8URENData10HttpClientC", "JSONDecoder"]
+- ["8URENData10HttpClientC", "Model"]
+- ["8URENData10HttpClientC", "URLSession"]
+- ["8URENData10HttpClientC", "UrlRequestConvertible"]
+- ["8URENData10HttpClientC", ""]
+- ["8URENData10HttpClientC", "deinit"]
+- ["8URENData10HttpClientC", "execute"]
+- ["8URENData10HttpClientC", "init"]
+- !private ["8URENData10HttpClientC", "jsonDecoder"]
+- !private ["8URENData10HttpClientC", "session"]
+- ["8URENData10HttpClientC", "shared"]
+- !private ["8URENData15HttpClientErrorO", ""]
+- !private ["8URENData15HttpClientErrorO", "deserialization"]
+- !private ["8URENData15HttpClientErrorO", "missingResponseData"]
+- !private ["8URENData15HttpClientErrorO", "server"]
+- !private ["8URENData18HttpClientProviderP", "Future"]
+- ["8URENData18HttpClientProviderP", "HttpClient"]
+- !private ["8URENData18HttpClientProviderP", "HttpClientError"]
+- !private ["8URENData18HttpClientProviderP", "JSONDecoder"]
+- !private ["8URENData18HttpClientProviderP", "URLSession"]
+- ["8URENData18HttpClientProviderP", ""]
+- ["8URENData18HttpClientProviderP", "execute"]
+- ["8URENData18HttpClientProviderP", "init"]
+- !private ["8URENData18HttpClientProviderP", "jsonDecoder"]
+- !private ["8URENData18HttpClientProviderP", "session"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation14LocalizedErrorP", "deserialization"]
+- !private ["10Foundation14LocalizedErrorP", "missingResponseData"]
+- !private ["10Foundation14LocalizedErrorP", "server"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "dataTaskWithRequest"]
+- !private ["So8NSObjectC", "dataTaskWithURL"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "sessionWithConfiguration"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "dataTaskWithRequest"]
+- !private ["So8NSObjectP", "dataTaskWithURL"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "sessionWithConfiguration"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["11URENCombine9PublisherP", "init"]
+- !private ["Sk", "contains"]
+- !private ["SX", "contains"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["8URENData21UrlRequestConvertibleP", "asURLRequest"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "SN"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "11URENCombine6FutureC"
+- !private "So17NSHTTPURLResponseC"
+- !private "SH"
+- "8URENData10HttpClientC"
+- !private "8URENData15HttpClientErrorO"
+- "8URENData18HttpClientProviderP"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation14LocalizedErrorP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So19NSProgressReportingP"
+- !private "11URENCombine9PublisherP"
+- !private "Sk"
+- !private "SX"
+- !private "s6ResultO"
+- !private "ST"
+- !private "7Combine15TopLevelDecoderP"
+- "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "8URENData21UrlRequestConvertibleP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENData.build/Debug-iphonesimulator/URENData.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "973fb7866537bd20bd0986c4b11adc66"

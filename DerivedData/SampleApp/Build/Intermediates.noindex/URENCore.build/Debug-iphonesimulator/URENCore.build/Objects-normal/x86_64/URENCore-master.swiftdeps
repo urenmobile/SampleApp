@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "8ee012be36d4e7c4eb6cae4dd0f60ef2"
+build_time: [1607867640, 325766000]
+inputs:
+  "/Users/remziyildirim/Documents/XcodeProject/URENCore/URENCore/Core/URENImageView.swift": [1607856538, 883745603]
+  "/Users/remziyildirim/Documents/XcodeProject/URENCore/URENCore/Core/ImageCacheProvider.swift": [1607854498, 694124937]
+  "/Users/remziyildirim/Documents/XcodeProject/URENCore/URENCore/Core/ImageManager.swift": [1607856571, 35290682]

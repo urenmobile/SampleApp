@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  SampleApp
+
+  Created by Remzi YILDIRIM on 12/7/20.
+  
+*/
+
+"error" = "Error";
+"ok" = "OK";
+"cancel" = "Cancel";
+
+"products" = "Products";
+"productDetail" = "Product Detail";
+
+"noInternetConnection" = "Oops!. Someting went wrong. Make sure your device is connected to the internet.";

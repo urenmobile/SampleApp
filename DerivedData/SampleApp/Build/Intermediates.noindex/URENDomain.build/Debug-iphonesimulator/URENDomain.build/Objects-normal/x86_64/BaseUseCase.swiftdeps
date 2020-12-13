@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseUseCase"
+- "FatalHelper"
+provides-nominal:
+- "10URENDomain11BaseUseCaseC"
+- "10URENDomain11FatalHelperC"
+provides-member:
+- ["10URENDomain11BaseUseCaseC", ""]
+- ["10URENDomain11FatalHelperC", ""]
+provides-dynamic-lookup:
+- "notImplementedError"
+depends-top-level:
+- "BaseUseCase"
+- "Error"
+- "FatalHelper"
+- "FloatLiteralType"
+- "Future"
+- "Input"
+- "IntegerLiteralType"
+- "Never"
+- "Output"
+- "StaticString"
+- "StringLiteralType"
+- "UInt"
+- "UseCase"
+- !private "fatalError"
+depends-member:
+- ["10URENDomain11BaseUseCaseC", "Error"]
+- !private ["10URENDomain11BaseUseCaseC", "FatalHelper"]
+- ["10URENDomain11BaseUseCaseC", "Future"]
+- ["10URENDomain11BaseUseCaseC", "Input"]
+- ["10URENDomain11BaseUseCaseC", "Output"]
+- ["10URENDomain11BaseUseCaseC", ""]
+- ["10URENDomain11BaseUseCaseC", "deinit"]
+- ["10URENDomain11BaseUseCaseC", "execute"]
+- ["10URENDomain11BaseUseCaseC", "init"]
+- ["10URENDomain11FatalHelperC", "Never"]
+- ["10URENDomain11FatalHelperC", "StaticString"]
+- ["10URENDomain11FatalHelperC", "UInt"]
+- ["10URENDomain11FatalHelperC", "deinit"]
+- !private ["10URENDomain11FatalHelperC", "fatalError"]
+- ["10URENDomain11FatalHelperC", "init"]
+- ["10URENDomain11FatalHelperC", "notImplementedError"]
+- !private ["10URENDomain7UseCaseP", "FatalHelper"]
+- ["10URENDomain7UseCaseP", "Input"]
+- ["10URENDomain7UseCaseP", "Output"]
+- ["10URENDomain7UseCaseP", ""]
+- ["10URENDomain7UseCaseP", "execute"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "10URENDomain11BaseUseCaseC"
+- "10URENDomain11FatalHelperC"
+- "10URENDomain7UseCaseP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/URENDomain/URENDomain/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENDomain.build/Debug-iphonesimulator/URENDomain.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5a6a4b44376485075017afa50588cfdc"

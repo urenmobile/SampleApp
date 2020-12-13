@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkReachabilityManager"
+provides-nominal:
+- "8URENData26NetworkReachabilityManagerC"
+- "8URENData26NetworkReachabilityManagerC6StatusO"
+provides-member:
+- ["8URENData26NetworkReachabilityManagerC", ""]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", ""]
+- ["8URENData26NetworkReachabilityManagerC", "Status"]
+provides-dynamic-lookup:
+- "monitor"
+- "queue"
+- "shared"
+- "start"
+- "statusSubject"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NWPathMonitor"
+- "NetworkReachabilityManager"
+- "Never"
+- "PassthroughSubject"
+- "StringLiteralType"
+- "debugPrint"
+- !private "monitor"
+- !private "queue"
+depends-member:
+- ["s7CVarArgP", "init"]
+- ["11URENCombine11CancellableP", "init"]
+- !private ["11URENCombine11CancellableP", "send"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["So18OS_dispatch_objectC", ""]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- ["So17OS_dispatch_queueC", "init"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "notReachable"]
+- !private ["SQ", "reachable"]
+- !private ["SQ", "satisfied"]
+- !private ["SQ", "status"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "notReachable"]
+- !private ["SH", "reachable"]
+- !private ["SH", "satisfied"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- !private ["7Network6NWPathV", "status"]
+- ["7Network13NWPathMonitorC", "init"]
+- !private ["7Network13NWPathMonitorC", "pathUpdateHandler"]
+- !private ["7Network13NWPathMonitorC", "start"]
+- ["8URENData26NetworkReachabilityManagerC", "DispatchQueue"]
+- ["8URENData26NetworkReachabilityManagerC", "NWPathMonitor"]
+- ["8URENData26NetworkReachabilityManagerC", "NetworkReachabilityManager"]
+- ["8URENData26NetworkReachabilityManagerC", "Never"]
+- ["8URENData26NetworkReachabilityManagerC", "PassthroughSubject"]
+- ["8URENData26NetworkReachabilityManagerC", "Status"]
+- ["8URENData26NetworkReachabilityManagerC", ""]
+- !private ["8URENData26NetworkReachabilityManagerC", "debugPrint"]
+- ["8URENData26NetworkReachabilityManagerC", "deinit"]
+- ["8URENData26NetworkReachabilityManagerC", "init"]
+- !private ["8URENData26NetworkReachabilityManagerC", "monitor"]
+- !private ["8URENData26NetworkReachabilityManagerC", "queue"]
+- ["8URENData26NetworkReachabilityManagerC", "shared"]
+- ["8URENData26NetworkReachabilityManagerC", "start"]
+- ["8URENData26NetworkReachabilityManagerC", "statusSubject"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- ["11URENCombine18PassthroughSubjectC", "init"]
+- !private ["11URENCombine18PassthroughSubjectC", "send"]
+- ["11URENCombine9PublisherP", ""]
+- ["11URENCombine9PublisherP", "init"]
+- !private ["11URENCombine9PublisherP", "send"]
+- ["11URENCombine9SchedulerP", "init"]
+- ["7Combine9SchedulerP", "init"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "=="]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", ""]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "__derived_enum_equals"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "_rawHashValue"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "hash"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "hashValue"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "notReachable"]
+- ["8URENData26NetworkReachabilityManagerC6StatusO", "reachable"]
+- !private ["7Network6NWPathV6StatusO", "satisfied"]
+- ["11URENCombine7SubjectP", "init"]
+- !private ["11URENCombine7SubjectP", "send"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "11URENCombine11CancellableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7Network6NWPathV"
+- "7Network13NWPathMonitorC"
+- "8URENData26NetworkReachabilityManagerC"
+- "So9OS_objectC"
+- "11URENCombine18PassthroughSubjectC"
+- "11URENCombine9PublisherP"
+- "11URENCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "8URENData26NetworkReachabilityManagerC6StatusO"
+- !private "7Network6NWPathV6StatusO"
+- "11URENCombine7SubjectP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENData.build/Debug-iphonesimulator/URENData.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7f591851804e60b5cf913e8acada59fd"

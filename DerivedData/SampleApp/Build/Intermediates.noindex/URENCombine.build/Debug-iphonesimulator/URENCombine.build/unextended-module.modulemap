@@ -1,0 +1,10 @@
+framework module URENCombine {
+  umbrella header "URENCombine.h"
+
+  export *
+  module * { export * }
+}
+
+module URENCombine.__Swift {
+    exclude header "URENCombine-Swift.h"
+}

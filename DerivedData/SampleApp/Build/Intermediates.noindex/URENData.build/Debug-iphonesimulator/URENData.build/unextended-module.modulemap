@@ -1,0 +1,10 @@
+framework module URENData {
+  umbrella header "URENData.h"
+
+  export *
+  module * { export * }
+}
+
+module URENData.__Swift {
+    exclude header "URENData-Swift.h"
+}

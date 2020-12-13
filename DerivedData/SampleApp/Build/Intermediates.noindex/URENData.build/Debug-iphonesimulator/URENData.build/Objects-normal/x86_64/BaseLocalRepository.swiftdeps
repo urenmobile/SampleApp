@@ -1,0 +1,407 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseLocalRepository"
+provides-nominal:
+- "8URENData19BaseLocalRepositoryC"
+- "8URENData19BaseLocalRepositoryC13CoreDataErrorO"
+provides-member:
+- ["8URENData19BaseLocalRepositoryC", ""]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", ""]
+- ["8URENData19BaseLocalRepositoryC", "CoreDataError"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "BaseLocalRepository"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CoreDataError"
+- "Entity"
+- "EntityType"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LocalRepositoryProvider"
+- "NSError"
+- "NSFetchRequest"
+- "NSFetchRequestResult"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "NSPredicate"
+- "NSSortDescriptor"
+- "Result"
+- !private "StringLiteralType"
+- !private "context"
+- !private "debugPrint"
+- !private "fetch"
+depends-member:
+- !private ["Sa", "first"]
+- ["8URENData19BaseLocalRepositoryC", "Bool"]
+- ["8URENData19BaseLocalRepositoryC", "CoreDataError"]
+- ["8URENData19BaseLocalRepositoryC", "Entity"]
+- ["8URENData19BaseLocalRepositoryC", "Error"]
+- !private ["8URENData19BaseLocalRepositoryC", "NSError"]
+- ["8URENData19BaseLocalRepositoryC", "NSFetchRequest"]
+- ["8URENData19BaseLocalRepositoryC", "NSFetchRequestResult"]
+- ["8URENData19BaseLocalRepositoryC", "NSManagedObjectContext"]
+- ["8URENData19BaseLocalRepositoryC", "NSPredicate"]
+- ["8URENData19BaseLocalRepositoryC", "NSSortDescriptor"]
+- ["8URENData19BaseLocalRepositoryC", "Result"]
+- ["8URENData19BaseLocalRepositoryC", ""]
+- !private ["8URENData19BaseLocalRepositoryC", "context"]
+- ["8URENData19BaseLocalRepositoryC", "create"]
+- !private ["8URENData19BaseLocalRepositoryC", "debugPrint"]
+- ["8URENData19BaseLocalRepositoryC", "deinit"]
+- ["8URENData19BaseLocalRepositoryC", "delete"]
+- ["8URENData19BaseLocalRepositoryC", "deleteAll"]
+- ["8URENData19BaseLocalRepositoryC", "fetch"]
+- ["8URENData19BaseLocalRepositoryC", "fetchAll"]
+- ["8URENData19BaseLocalRepositoryC", "init"]
+- ["8URENData19BaseLocalRepositoryC", "read"]
+- ["8URENData19BaseLocalRepositoryC", "saveContext"]
+- !private ["SK", ""]
+- !private ["SK", "first"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "fetchLimit"]
+- !private ["s7CVarArgP", "fetchRequest"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hasChanges"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "sortDescriptors"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "=="]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", ""]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "__derived_enum_equals"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "_code"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "_domain"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "_getEmbeddedNSError"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "_rawHashValue"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "_userInfo"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "code"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "commitError"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "domain"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "fetchError"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "hash"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "hashValue"]
+- ["8URENData19BaseLocalRepositoryC13CoreDataErrorO", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "sortDescriptors"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "fetchLimit"]
+- !private ["s23CustomStringConvertibleP", "fetchRequest"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hasChanges"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "sortDescriptors"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "first"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "first"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "code"]
+- !private ["SQ", "commitError"]
+- !private ["SQ", "delete"]
+- ["SQ", "domain"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "fetchError"]
+- !private ["SQ", "fetchLimit"]
+- !private ["SQ", "fetchRequest"]
+- !private ["SQ", "first"]
+- !private ["SQ", "hasChanges"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "predicate"]
+- !private ["SQ", "save"]
+- !private ["SQ", "sortDescriptors"]
+- ["SQ", "success"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "commitError"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "fetchError"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "code"]
+- !private ["SH", "commitError"]
+- !private ["SH", "delete"]
+- ["SH", "domain"]
+- !private ["SH", "failure"]
+- !private ["SH", "fetch"]
+- !private ["SH", "fetchError"]
+- !private ["SH", "fetchLimit"]
+- !private ["SH", "fetchRequest"]
+- !private ["SH", "first"]
+- !private ["SH", "hasChanges"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "predicate"]
+- !private ["SH", "save"]
+- !private ["SH", "sortDescriptors"]
+- ["SH", "success"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- !private ["8URENData23LocalRepositoryProviderP", "CoreDataError"]
+- ["8URENData23LocalRepositoryProviderP", "Entity"]
+- ["8URENData23LocalRepositoryProviderP", ""]
+- !private ["8URENData23LocalRepositoryProviderP", "context"]
+- ["8URENData23LocalRepositoryProviderP", "create"]
+- !private ["8URENData23LocalRepositoryProviderP", "debugPrint"]
+- ["8URENData23LocalRepositoryProviderP", "delete"]
+- ["8URENData23LocalRepositoryProviderP", "deleteAll"]
+- ["8URENData23LocalRepositoryProviderP", "fetch"]
+- ["8URENData23LocalRepositoryProviderP", "fetchAll"]
+- ["8URENData23LocalRepositoryProviderP", "read"]
+- ["8URENData23LocalRepositoryProviderP", "saveContext"]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "fetchLimit"]
+- !private ["So8NSCodingP", "hasChanges"]
+- !private ["So8NSCodingP", "predicate"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "sortDescriptors"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "fetchLimit"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So9NSCopyingP", "sortDescriptors"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So14NSFetchRequestC", "fetchLimit"]
+- !private ["So14NSFetchRequestC", "predicate"]
+- !private ["So14NSFetchRequestC", "sortDescriptors"]
+- !private ["So20NSFetchRequestResultP", "fetchRequest"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "hasChanges"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "fetchRequest"]
+- !private ["So15NSManagedObjectC", "init"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "hasChanges"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "deleteObject"]
+- !private ["So8NSObjectC", "executeFetchRequest"]
+- !private ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "fetchLimit"]
+- !private ["So8NSObjectC", "fetchRequest"]
+- !private ["So8NSObjectC", "hasChanges"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "sortDescriptors"]
+- !private ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "deleteObject"]
+- !private ["So8NSObjectP", "executeFetchRequest"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "fetchLimit"]
+- !private ["So8NSObjectP", "fetchRequest"]
+- !private ["So8NSObjectP", "hasChanges"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "predicate"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "sortDescriptors"]
+- !private ["So8NSObjectP", "userInfo"]
+- ["So24NSPersistentStoreRequestC", ""]
+- !private ["So24NSPersistentStoreRequestC", "fetchLimit"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So24NSPersistentStoreRequestC", "sortDescriptors"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["7Combine16ObservableObjectP", "fetchRequest"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["s6ResultO", "failure"]
+- ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "first"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sortDescriptors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delete"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasChanges"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "predicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sortDescriptors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+depends-nominal:
+- !private "Sa"
+- "8URENData19BaseLocalRepositoryC"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "8URENData19BaseLocalRepositoryC13CoreDataErrorO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- !private "s6HasherV"
+- "8URENData23LocalRepositoryProviderP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So24NSPersistentStoreRequestC"
+- !private "So14NSSecureCodingP"
+- !private "7Combine16ObservableObjectP"
+- !private "Sk"
+- !private "Sm"
+- "s6ResultO"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENData.build/Debug-iphonesimulator/URENData.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "46b7721bc44f44d644b0fc981d468592"

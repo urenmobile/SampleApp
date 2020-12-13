@@ -1,0 +1,194 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Future"
+provides-nominal:
+- "11URENCombine6FutureC"
+provides-member:
+- ["11URENCombine6FutureC", ""]
+- ["11URENCombine6FutureC", "subscribe"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Completion"
+- "CompletionPromise"
+- "Error"
+- "Failure"
+- "Future"
+- "InputResult"
+- "Never"
+- "Output"
+- "Promise"
+- "Publisher"
+- "Result"
+- "Subscribers"
+- "Subscription"
+- "Void"
+- !private "isCompleted"
+- !private "receiveCompletion"
+- !private "receiveValue"
+- !private "subscriptions"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- !private ["11URENCombine11SubscribersO10CompletionO", "failure"]
+- !private ["11URENCombine11SubscribersO10CompletionO", "finished"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "success"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["11URENCombine6FutureC", "Completion"]
+- ["11URENCombine6FutureC", "CompletionPromise"]
+- ["11URENCombine6FutureC", "Default_Failure"]
+- ["11URENCombine6FutureC", "Default_Output"]
+- ["11URENCombine6FutureC", "Failure"]
+- ["11URENCombine6FutureC", "InputResult"]
+- ["11URENCombine6FutureC", "Never"]
+- ["11URENCombine6FutureC", "Output"]
+- ["11URENCombine6FutureC", "Promise"]
+- ["11URENCombine6FutureC", "Result"]
+- ["11URENCombine6FutureC", "Subscribers"]
+- ["11URENCombine6FutureC", "Subscription"]
+- ["11URENCombine6FutureC", "Void"]
+- ["11URENCombine6FutureC", ""]
+- ["11URENCombine6FutureC", "_Default_Failure"]
+- ["11URENCombine6FutureC", "_Default_Output"]
+- ["11URENCombine6FutureC", "deinit"]
+- ["11URENCombine6FutureC", "init"]
+- !private ["11URENCombine6FutureC", "isCompleted"]
+- !private ["11URENCombine6FutureC", "publish"]
+- !private ["11URENCombine6FutureC", "receiveCompletion"]
+- !private ["11URENCombine6FutureC", "receiveValue"]
+- !private ["11URENCombine6FutureC", "result"]
+- ["11URENCombine6FutureC", "sink"]
+- ["11URENCombine6FutureC", "subscribe"]
+- !private ["11URENCombine6FutureC", "subscriptions"]
+- !private ["SH", "append"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- !private ["SH", "success"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["11URENCombine9PublisherP", "Default_Failure"]
+- ["11URENCombine9PublisherP", "Default_Output"]
+- ["11URENCombine9PublisherP", "Failure"]
+- ["11URENCombine9PublisherP", "Output"]
+- !private ["11URENCombine9PublisherP", "Subscription"]
+- ["11URENCombine9PublisherP", ""]
+- ["11URENCombine9PublisherP", "_Default_Failure"]
+- ["11URENCombine9PublisherP", "_Default_Output"]
+- !private ["11URENCombine9PublisherP", "isCompleted"]
+- !private ["11URENCombine9PublisherP", "publish"]
+- !private ["11URENCombine9PublisherP", "receiveCompletion"]
+- !private ["11URENCombine9PublisherP", "receiveValue"]
+- !private ["11URENCombine9PublisherP", "result"]
+- !private ["11URENCombine9PublisherP", "sink"]
+- !private ["11URENCombine9PublisherP", "subscriptions"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- ["11URENCombine11SubscribersO", "Completion"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "11URENCombine11SubscribersO10CompletionO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "11URENCombine6FutureC"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "11URENCombine9PublisherP"
+- !private "Sk"
+- !private "Sm"
+- !private "s6ResultO"
+- !private "ST"
+- "11URENCombine11SubscribersO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENCombine/URENCombine/URENCombine.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENCombine.build/Debug-iphonesimulator/URENCombine.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9af712b87b24f3e860562f8478c2c0d5"

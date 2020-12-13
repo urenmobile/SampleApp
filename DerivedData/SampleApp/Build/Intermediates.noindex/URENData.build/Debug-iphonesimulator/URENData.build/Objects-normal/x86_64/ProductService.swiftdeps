@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProductService"
+provides-nominal:
+- "8URENData14ProductServiceC"
+- "8URENData14ProductServiceC0bC5ModelC"
+- "8URENData14ProductServiceC0b6DetailC5ModelC"
+provides-member:
+- ["8URENData14ProductServiceC", ""]
+- ["8URENData14ProductServiceC0bC5ModelC", ""]
+- ["8URENData14ProductServiceC0b6DetailC5ModelC", ""]
+- ["8URENData14ProductServiceC", "ProductServiceModel"]
+- ["8URENData14ProductServiceC", "ProductDetailServiceModel"]
+provides-dynamic-lookup:
+- "getProductDetail"
+- "getProducts"
+depends-top-level:
+- "BaseRequestConvertible"
+- !private "Endpoints"
+- !private "EnvironmentManager"
+- "ProductDetailRequest"
+- !private "ProductDetailServiceModel"
+- "ProductRequest"
+- "ProductService"
+- !private "ProductServiceModel"
+- "ProductServiceProvider"
+- "UrlRequestConvertible"
+depends-member:
+- !private ["8URENData22BaseRequestConvertibleC", "Endpoints"]
+- !private ["8URENData22BaseRequestConvertibleC", "EnvironmentManager"]
+- ["8URENData22BaseRequestConvertibleC", "ProductDetailRequest"]
+- ["8URENData22BaseRequestConvertibleC", "ProductRequest"]
+- ["8URENData22BaseRequestConvertibleC", ""]
+- ["8URENData22BaseRequestConvertibleC", "init"]
+- !private ["Se", ""]
+- !private ["Se", "productId"]
+- !private ["SE", ""]
+- !private ["SE", "productId"]
+- !private ["8URENData9EndpointsO", "Paths"]
+- !private ["8URENData18EnvironmentManagerC", ""]
+- !private ["8URENData18EnvironmentManagerC", "environment"]
+- !private ["8URENData18EnvironmentManagerC", "shared"]
+- !private ["8URENData19EnvironmentProtocolP", "environment"]
+- !private ["8URENData19EnvironmentProtocolP", "shared"]
+- !private ["SQ", "get"]
+- !private ["8URENData10HttpMethodV", ""]
+- !private ["8URENData10HttpMethodV", "get"]
+- !private ["10URENDomain5ModelP", "productId"]
+- !private ["8URENData9EndpointsO5PathsO", "productDetail"]
+- !private ["8URENData9EndpointsO5PathsO", "products"]
+- !private ["10URENDomain20ProductDetailRequestV", "productId"]
+- !private ["8URENData14ProductServiceC0b6DetailC5ModelC", "Endpoints"]
+- !private ["8URENData14ProductServiceC0b6DetailC5ModelC", "EnvironmentManager"]
+- ["8URENData14ProductServiceC0b6DetailC5ModelC", "ProductDetailRequest"]
+- !private ["8URENData14ProductServiceC0b6DetailC5ModelC", ""]
+- ["8URENData14ProductServiceC0b6DetailC5ModelC", "deinit"]
+- ["8URENData14ProductServiceC0b6DetailC5ModelC", "init"]
+- ["8URENData14ProductServiceC", "BaseRequestConvertible"]
+- !private ["8URENData14ProductServiceC", "Endpoints"]
+- !private ["8URENData14ProductServiceC", "EnvironmentManager"]
+- ["8URENData14ProductServiceC", "ProductDetailRequest"]
+- ["8URENData14ProductServiceC", "ProductDetailServiceModel"]
+- ["8URENData14ProductServiceC", "ProductRequest"]
+- ["8URENData14ProductServiceC", "ProductServiceModel"]
+- ["8URENData14ProductServiceC", "UrlRequestConvertible"]
+- ["8URENData14ProductServiceC", ""]
+- ["8URENData14ProductServiceC", "deinit"]
+- ["8URENData14ProductServiceC", "getProductDetail"]
+- ["8URENData14ProductServiceC", "getProducts"]
+- ["8URENData14ProductServiceC", "init"]
+- !private ["8URENData14ProductServiceC0bC5ModelC", "Endpoints"]
+- !private ["8URENData14ProductServiceC0bC5ModelC", "EnvironmentManager"]
+- ["8URENData14ProductServiceC0bC5ModelC", "ProductRequest"]
+- !private ["8URENData14ProductServiceC0bC5ModelC", ""]
+- ["8URENData14ProductServiceC0bC5ModelC", "deinit"]
+- ["8URENData14ProductServiceC0bC5ModelC", "init"]
+- ["8URENData22ProductServiceProviderP", "BaseRequestConvertible"]
+- !private ["8URENData22ProductServiceProviderP", "Endpoints"]
+- !private ["8URENData22ProductServiceProviderP", "EnvironmentManager"]
+- !private ["8URENData22ProductServiceProviderP", "ProductDetailServiceModel"]
+- !private ["8URENData22ProductServiceProviderP", "ProductServiceModel"]
+- ["8URENData22ProductServiceProviderP", ""]
+- ["8URENData22ProductServiceProviderP", "getProductDetail"]
+- ["8URENData22ProductServiceProviderP", "getProducts"]
+- !private ["SY", "get"]
+- !private ["8URENData21UrlRequestConvertibleP", "Endpoints"]
+- !private ["8URENData21UrlRequestConvertibleP", "EnvironmentManager"]
+- ["8URENData21UrlRequestConvertibleP", ""]
+- !private ["8URENData21UrlRequestConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "8URENData22BaseRequestConvertibleC"
+- !private "Se"
+- !private "SE"
+- !private "8URENData9EndpointsO"
+- !private "8URENData18EnvironmentManagerC"
+- !private "8URENData19EnvironmentProtocolP"
+- !private "SQ"
+- !private "8URENData10HttpMethodV"
+- !private "10URENDomain5ModelP"
+- !private "8URENData9EndpointsO5PathsO"
+- !private "10URENDomain20ProductDetailRequestV"
+- "8URENData14ProductServiceC0b6DetailC5ModelC"
+- "8URENData14ProductServiceC"
+- "8URENData14ProductServiceC0bC5ModelC"
+- "8URENData22ProductServiceProviderP"
+- !private "SY"
+- "8URENData21UrlRequestConvertibleP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENData.build/Debug-iphonesimulator/URENData.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ca23e5fefbe11be6011709e7f427c32a"

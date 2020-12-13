@@ -1,0 +1,11 @@
+framework module URENCore {
+  umbrella header "URENCore.h"
+
+  export *
+  module * { export * }
+}
+
+module URENCore.Swift {
+    header "URENCore-Swift.h"
+    requires objc
+}

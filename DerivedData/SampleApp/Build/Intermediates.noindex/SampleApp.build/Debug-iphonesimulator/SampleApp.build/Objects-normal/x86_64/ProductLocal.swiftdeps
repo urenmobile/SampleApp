@@ -1,0 +1,550 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProductLocal"
+provides-nominal:
+- "9SampleApp12ProductLocalC"
+- "9SampleApp13ProductEntityC"
+provides-member:
+- ["9SampleApp12ProductLocalC", ""]
+- ["9SampleApp13ProductEntityC", ""]
+provides-dynamic-lookup:
+- "createEntity"
+- "createOrUpdate"
+- "currentEntites"
+- "persistent"
+- "saveProductDetail"
+- "saveProducts"
+- "toDomain"
+- "update"
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Date"
+- "DomainModelConvertible"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PersistentProvider"
+- "ProductDetailResponse"
+- "ProductEntity"
+- "ProductLocal"
+- "ProductLocalProvider"
+- "ProductModel"
+- "ProductResponse"
+- !private "StringLiteralType"
+- !private "createEntity"
+- "createOrUpdate"
+- !private "currentEntites"
+- !private "imageUrl"
+- !private "name"
+- "persistent"
+- !private "price"
+- !private "print"
+- !private "productDescription"
+- !private "productId"
+depends-member:
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "remove"]
+- !private ["SK", ""]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "forEach"]
+- !private ["SK", "remove"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "filter"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "firstIndex"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "forEach"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "remove"]
+- ["s7CVarArgP", "Default_ModelType"]
+- ["s7CVarArgP", "ModelType"]
+- !private ["s7CVarArgP", "ProductModel"]
+- ["s7CVarArgP", "_Default_ModelType"]
+- !private ["s7CVarArgP", "createDate"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "firstIndex"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "imageUrl"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "price"]
+- !private ["s7CVarArgP", "productDescription"]
+- !private ["s7CVarArgP", "productId"]
+- !private ["s7CVarArgP", "remove"]
+- ["s7CVarArgP", "toDomain"]
+- ["s7CVarArgP", "update"]
+- !private ["Sl", ""]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "remove"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- ["s28CustomDebugStringConvertibleP", "Default_ModelType"]
+- ["s28CustomDebugStringConvertibleP", "ModelType"]
+- !private ["s28CustomDebugStringConvertibleP", "ProductModel"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ModelType"]
+- !private ["s28CustomDebugStringConvertibleP", "createDate"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "imageUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "price"]
+- !private ["s28CustomDebugStringConvertibleP", "productDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "productId"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- ["s28CustomDebugStringConvertibleP", "toDomain"]
+- ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "remove"]
+- ["s23CustomStringConvertibleP", "Default_ModelType"]
+- ["s23CustomStringConvertibleP", "ModelType"]
+- !private ["s23CustomStringConvertibleP", "ProductModel"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ModelType"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "createDate"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "imageUrl"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "price"]
+- !private ["s23CustomStringConvertibleP", "productDescription"]
+- !private ["s23CustomStringConvertibleP", "productId"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- ["s23CustomStringConvertibleP", "toDomain"]
+- ["s23CustomStringConvertibleP", "update"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", ""]
+- !private ["Se", "description"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "forEach"]
+- !private ["Se", "imageUrl"]
+- !private ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "price"]
+- !private ["Se", "productId"]
+- !private ["Se", "products"]
+- !private ["Se", "remove"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["9SampleApp22DomainModelConvertibleP", "Default_ModelType"]
+- ["9SampleApp22DomainModelConvertibleP", "ModelType"]
+- !private ["9SampleApp22DomainModelConvertibleP", "ProductModel"]
+- ["9SampleApp22DomainModelConvertibleP", ""]
+- ["9SampleApp22DomainModelConvertibleP", "_Default_ModelType"]
+- !private ["9SampleApp22DomainModelConvertibleP", "createDate"]
+- !private ["9SampleApp22DomainModelConvertibleP", "imageUrl"]
+- !private ["9SampleApp22DomainModelConvertibleP", "name"]
+- !private ["9SampleApp22DomainModelConvertibleP", "price"]
+- !private ["9SampleApp22DomainModelConvertibleP", "productDescription"]
+- !private ["9SampleApp22DomainModelConvertibleP", "productId"]
+- ["9SampleApp22DomainModelConvertibleP", "toDomain"]
+- ["9SampleApp22DomainModelConvertibleP", "update"]
+- !private ["SE", ""]
+- !private ["SE", "description"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "forEach"]
+- !private ["SE", "imageUrl"]
+- !private ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "price"]
+- !private ["SE", "productId"]
+- !private ["SE", "products"]
+- !private ["SE", "remove"]
+- ["SQ", "Default_ModelType"]
+- ["SQ", "ModelType"]
+- !private ["SQ", "ProductModel"]
+- ["SQ", ""]
+- ["SQ", "_Default_ModelType"]
+- !private ["SQ", "createDate"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "firstIndex"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "imageUrl"]
+- !private ["SQ", "init"]
+- !private ["SQ", "name"]
+- !private ["SQ", "price"]
+- !private ["SQ", "productDescription"]
+- !private ["SQ", "productId"]
+- !private ["SQ", "remove"]
+- ["SQ", "toDomain"]
+- ["SQ", "update"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["SH", "Default_ModelType"]
+- ["SH", "ModelType"]
+- !private ["SH", "ProductModel"]
+- !private ["SH", ""]
+- ["SH", "_Default_ModelType"]
+- !private ["SH", "createDate"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "firstIndex"]
+- !private ["SH", "forEach"]
+- !private ["SH", "imageUrl"]
+- !private ["SH", "init"]
+- !private ["SH", "name"]
+- !private ["SH", "price"]
+- !private ["SH", "productDescription"]
+- !private ["SH", "productId"]
+- !private ["SH", "remove"]
+- ["SH", "toDomain"]
+- ["SH", "update"]
+- !private ["10URENDomain5ModelP", "description"]
+- !private ["10URENDomain5ModelP", "imageUrl"]
+- !private ["10URENDomain5ModelP", "init"]
+- !private ["10URENDomain5ModelP", "name"]
+- !private ["10URENDomain5ModelP", "price"]
+- !private ["10URENDomain5ModelP", "productId"]
+- !private ["10URENDomain5ModelP", "products"]
+- !private ["SM", ""]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "forEach"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- ["So8NSCodingP", ""]
+- ["So20NSFetchRequestResultP", "Default_ModelType"]
+- ["So20NSFetchRequestResultP", "ModelType"]
+- ["So20NSFetchRequestResultP", "ProductModel"]
+- ["So20NSFetchRequestResultP", "_Default_ModelType"]
+- !private ["So20NSFetchRequestResultP", "createDate"]
+- !private ["So20NSFetchRequestResultP", "imageUrl"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "price"]
+- !private ["So20NSFetchRequestResultP", "productDescription"]
+- !private ["So20NSFetchRequestResultP", "productId"]
+- ["So20NSFetchRequestResultP", "toDomain"]
+- ["So20NSFetchRequestResultP", "update"]
+- ["So15NSManagedObjectC", "Default_ModelType"]
+- ["So15NSManagedObjectC", "ModelType"]
+- ["So15NSManagedObjectC", "ProductModel"]
+- ["So15NSManagedObjectC", ""]
+- ["So15NSManagedObjectC", "_Default_ModelType"]
+- !private ["So15NSManagedObjectC", "createDate"]
+- !private ["So15NSManagedObjectC", "imageUrl"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "price"]
+- !private ["So15NSManagedObjectC", "productDescription"]
+- !private ["So15NSManagedObjectC", "productId"]
+- ["So15NSManagedObjectC", "toDomain"]
+- ["So15NSManagedObjectC", "update"]
+- ["So8NSObjectC", "Default_ModelType"]
+- ["So8NSObjectC", "ModelType"]
+- ["So8NSObjectC", "ProductModel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_Default_ModelType"]
+- !private ["So8NSObjectC", "createDate"]
+- !private ["So8NSObjectC", "imageUrl"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "price"]
+- !private ["So8NSObjectC", "productDescription"]
+- !private ["So8NSObjectC", "productId"]
+- ["So8NSObjectC", "toDomain"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectP", "Default_ModelType"]
+- ["So8NSObjectP", "ModelType"]
+- ["So8NSObjectP", "ProductModel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_Default_ModelType"]
+- !private ["So8NSObjectP", "createDate"]
+- !private ["So8NSObjectP", "imageUrl"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "price"]
+- !private ["So8NSObjectP", "productDescription"]
+- !private ["So8NSObjectP", "productId"]
+- ["So8NSObjectP", "toDomain"]
+- ["So8NSObjectP", "update"]
+- ["7Combine16ObservableObjectP", "Default_ModelType"]
+- ["7Combine16ObservableObjectP", "ModelType"]
+- !private ["7Combine16ObservableObjectP", "ProductModel"]
+- ["7Combine16ObservableObjectP", "_Default_ModelType"]
+- !private ["7Combine16ObservableObjectP", "createDate"]
+- !private ["7Combine16ObservableObjectP", "imageUrl"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["7Combine16ObservableObjectP", "price"]
+- !private ["7Combine16ObservableObjectP", "productDescription"]
+- !private ["7Combine16ObservableObjectP", "productId"]
+- ["7Combine16ObservableObjectP", "toDomain"]
+- ["7Combine16ObservableObjectP", "update"]
+- !private ["9SampleApp18PersistentProviderP", "create"]
+- !private ["9SampleApp18PersistentProviderP", "delete"]
+- !private ["9SampleApp18PersistentProviderP", "fetch"]
+- !private ["9SampleApp18PersistentProviderP", "saveContext"]
+- !private ["10URENDomain21ProductDetailResponseC", "productId"]
+- ["9SampleApp13ProductEntityC", "Default_ModelType"]
+- ["9SampleApp13ProductEntityC", "ModelType"]
+- ["9SampleApp13ProductEntityC", "ProductModel"]
+- ["9SampleApp13ProductEntityC", ""]
+- ["9SampleApp13ProductEntityC", "_Default_ModelType"]
+- !private ["9SampleApp13ProductEntityC", "createDate"]
+- !private ["9SampleApp13ProductEntityC", "imageUrl"]
+- !private ["9SampleApp13ProductEntityC", "name"]
+- !private ["9SampleApp13ProductEntityC", "price"]
+- !private ["9SampleApp13ProductEntityC", "productDescription"]
+- !private ["9SampleApp13ProductEntityC", "productId"]
+- ["9SampleApp13ProductEntityC", "toDomain"]
+- ["9SampleApp13ProductEntityC", "update"]
+- !private ["9SampleApp12ProductLocalC", "Date"]
+- ["9SampleApp12ProductLocalC", "PersistentProvider"]
+- ["9SampleApp12ProductLocalC", "ProductDetailResponse"]
+- ["9SampleApp12ProductLocalC", "ProductEntity"]
+- ["9SampleApp12ProductLocalC", "ProductModel"]
+- ["9SampleApp12ProductLocalC", "ProductResponse"]
+- !private ["9SampleApp12ProductLocalC", "createEntity"]
+- !private ["9SampleApp12ProductLocalC", "createOrUpdate"]
+- !private ["9SampleApp12ProductLocalC", "currentEntites"]
+- ["9SampleApp12ProductLocalC", "deinit"]
+- ["9SampleApp12ProductLocalC", "init"]
+- !private ["9SampleApp12ProductLocalC", "persistent"]
+- !private ["9SampleApp12ProductLocalC", "print"]
+- ["9SampleApp12ProductLocalC", "saveProductDetail"]
+- ["9SampleApp12ProductLocalC", "saveProducts"]
+- !private ["8URENData20ProductLocalProviderP", "Date"]
+- ["8URENData20ProductLocalProviderP", ""]
+- !private ["8URENData20ProductLocalProviderP", "createEntity"]
+- !private ["8URENData20ProductLocalProviderP", "createOrUpdate"]
+- !private ["8URENData20ProductLocalProviderP", "currentEntites"]
+- !private ["8URENData20ProductLocalProviderP", "persistent"]
+- !private ["8URENData20ProductLocalProviderP", "print"]
+- ["8URENData20ProductLocalProviderP", "saveProductDetail"]
+- ["8URENData20ProductLocalProviderP", "saveProducts"]
+- ["10URENDomain12ProductModelC", ""]
+- !private ["10URENDomain12ProductModelC", "description"]
+- !private ["10URENDomain12ProductModelC", "imageUrl"]
+- !private ["10URENDomain12ProductModelC", "init"]
+- !private ["10URENDomain12ProductModelC", "name"]
+- !private ["10URENDomain12ProductModelC", "price"]
+- !private ["10URENDomain12ProductModelC", "productId"]
+- !private ["10URENDomain15ProductResponseV", "products"]
+- !private ["Sk", ""]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "remove"]
+- !private ["Sm", ""]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "remove"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "forEach"]
+- !private ["ST", "remove"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Default_ModelType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ModelType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProductModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_ModelType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productId"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toDomain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Default_ModelType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ModelType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ProductModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_Default_ModelType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageUrl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "price"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productId"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toDomain"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "update"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "9SampleApp22DomainModelConvertibleP"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- !private "10URENDomain5ModelP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7Combine16ObservableObjectP"
+- !private "9SampleApp18PersistentProviderP"
+- !private "10URENDomain21ProductDetailResponseC"
+- "9SampleApp13ProductEntityC"
+- "9SampleApp12ProductLocalC"
+- "8URENData20ProductLocalProviderP"
+- "10URENDomain12ProductModelC"
+- !private "10URENDomain15ProductResponseV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Modules/URENData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Modules/URENCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Headers/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Headers/URENCore.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Headers/URENData-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Headers/URENCore-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bdd49f815e71acc82c1a8b0ad01521b3"

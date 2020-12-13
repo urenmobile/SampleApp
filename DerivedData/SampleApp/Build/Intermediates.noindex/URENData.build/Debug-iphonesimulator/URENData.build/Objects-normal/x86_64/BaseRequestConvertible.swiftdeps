@@ -1,0 +1,554 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseRequestConvertible"
+- "Parameters"
+- "Headers"
+- "UrlRequestConvertible"
+- "HttpHeader"
+- "HttpMethod"
+provides-nominal:
+- "8URENData22BaseRequestConvertibleC"
+- "8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO"
+- "8URENData21UrlRequestConvertibleP"
+- "8URENData10HttpHeaderV"
+- "8URENData10HttpMethodV"
+provides-member:
+- ["8URENData22BaseRequestConvertibleC", ""]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", ""]
+- ["8URENData21UrlRequestConvertibleP", ""]
+- ["8URENData10HttpHeaderV", ""]
+- ["8URENData10HttpMethodV", ""]
+- ["8URENData22BaseRequestConvertibleC", "HTTPHeaderFields"]
+- ["8URENData10HttpMethodV", "get"]
+- ["8URENData10HttpMethodV", "post"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "+"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseRequestConvertible"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "Encodable"
+- "Endpoints"
+- "Environment"
+- "Equatable"
+- "FloatLiteralType"
+- "Headers"
+- "HttpHeader"
+- "HttpMethod"
+- "IntegerLiteralType"
+- !private "JSONEncoder"
+- !private "JSONSerialization"
+- "Model"
+- "Parameters"
+- "RawRepresentable"
+- "String"
+- "StringLiteralType"
+- "T"
+- "URL"
+- "URLComponents"
+- "URLRequest"
+- !private "UnicodeScalarType"
+- "UrlRequestConvertible"
+- !private "_findStringSwitchCase"
+- !private "data"
+- !private "environment"
+- !private "generateUrlComponents"
+- !private "method"
+- !private "params"
+- !private "path"
+- !private "~="
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["8URENData22BaseRequestConvertibleC", "Dictionary"]
+- ["8URENData22BaseRequestConvertibleC", "Endpoints"]
+- ["8URENData22BaseRequestConvertibleC", "Environment"]
+- ["8URENData22BaseRequestConvertibleC", "HTTPHeaderFields"]
+- ["8URENData22BaseRequestConvertibleC", "Headers"]
+- !private ["8URENData22BaseRequestConvertibleC", "HttpHeader"]
+- ["8URENData22BaseRequestConvertibleC", "HttpMethod"]
+- !private ["8URENData22BaseRequestConvertibleC", "JSONSerialization"]
+- ["8URENData22BaseRequestConvertibleC", "Parameters"]
+- ["8URENData22BaseRequestConvertibleC", "String"]
+- ["8URENData22BaseRequestConvertibleC", "URL"]
+- ["8URENData22BaseRequestConvertibleC", "URLComponents"]
+- ["8URENData22BaseRequestConvertibleC", "URLRequest"]
+- ["8URENData22BaseRequestConvertibleC", ""]
+- !private ["8URENData22BaseRequestConvertibleC", "_findStringSwitchCase"]
+- ["8URENData22BaseRequestConvertibleC", "asURLRequest"]
+- !private ["8URENData22BaseRequestConvertibleC", "data"]
+- ["8URENData22BaseRequestConvertibleC", "deinit"]
+- !private ["8URENData22BaseRequestConvertibleC", "environment"]
+- !private ["8URENData22BaseRequestConvertibleC", "findStringSwitchCase"]
+- !private ["8URENData22BaseRequestConvertibleC", "generateUrlComponents"]
+- !private ["8URENData22BaseRequestConvertibleC", "headers"]
+- ["8URENData22BaseRequestConvertibleC", "init"]
+- !private ["8URENData22BaseRequestConvertibleC", "method"]
+- !private ["8URENData22BaseRequestConvertibleC", "params"]
+- !private ["8URENData22BaseRequestConvertibleC", "path"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "contains"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "joined"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "map"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "map"]
+- !private ["So23NSURLRequestCachePolicyV", "returnCacheDataElseLoad"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "asDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "cachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "percentEncodedQuery"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "asDictionary"]
+- !private ["s17CustomReflectableP", "cachePolicy"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "percentEncodedQuery"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "cachePolicy"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "percentEncodedQuery"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", ""]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "asDictionary"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "percentEncodedQuery"]
+- !private ["Se", "url"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "init"]
+- !private ["SD", "isEmpty"]
+- !private ["SD", "map"]
+- !private ["SE", "JSONEncoder"]
+- !private ["SE", "JSONSerialization"]
+- ["SE", "Parameters"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "asDictionary"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "percentEncodedQuery"]
+- !private ["SE", "url"]
+- ["8URENData9EndpointsO", "Paths"]
+- !private ["8URENData11EnvironmentO", "host"]
+- ["SQ", "=="]
+- !private ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "Element"]
+- ["SQ", "HttpMethod"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "allowFragments"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "asDictionary"]
+- !private ["SQ", "cachePolicy"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "data"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "host"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "map"]
+- !private ["SQ", "percentEncodedQuery"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "returnCacheDataElseLoad"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "asDictionary"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "=="]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "Default_RawValue"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "RawValue"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", ""]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "_Default_RawValue"]
+- !private ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "_findStringSwitchCase"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "_rawHashValue"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "authorization"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "contentType"]
+- !private ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "findStringSwitchCase"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "hash"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "hashValue"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "init"]
+- ["8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO", "rawValue"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "asDictionary"]
+- !private ["SH", "cachePolicy"]
+- !private ["SH", "contains"]
+- !private ["SH", "data"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "host"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "map"]
+- !private ["SH", "percentEncodedQuery"]
+- ["SH", "rawValue"]
+- !private ["SH", "returnCacheDataElseLoad"]
+- !private ["SH", "url"]
+- ["8URENData10HttpHeaderV", "String"]
+- ["8URENData10HttpHeaderV", "init"]
+- ["8URENData10HttpHeaderV", "key"]
+- ["8URENData10HttpHeaderV", "value"]
+- ["8URENData10HttpMethodV", "=="]
+- ["8URENData10HttpMethodV", "Default_RawValue"]
+- ["8URENData10HttpMethodV", "HttpMethod"]
+- ["8URENData10HttpMethodV", "RawValue"]
+- ["8URENData10HttpMethodV", "String"]
+- ["8URENData10HttpMethodV", ""]
+- ["8URENData10HttpMethodV", "_Default_RawValue"]
+- ["8URENData10HttpMethodV", "get"]
+- ["8URENData10HttpMethodV", "init"]
+- ["8URENData10HttpMethodV", "post"]
+- ["8URENData10HttpMethodV", "rawValue"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "JSONObjectWithData"]
+- !private ["So8NSObjectC", "JSONObjectWithStream"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataWithJSONObject"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectP", "JSONObjectWithData"]
+- !private ["So8NSObjectP", "JSONObjectWithStream"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataWithJSONObject"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sq", "asDictionary"]
+- !private ["Sq", "map"]
+- !private ["8URENData9EndpointsO5PathsO", "path"]
+- !private ["Sk", ""]
+- !private ["Sk", "contains"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "contains"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- !private ["SY", "ArrayLiteralElement"]
+- ["SY", "Default_RawValue"]
+- !private ["SY", "Element"]
+- ["SY", "HttpMethod"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "allowFragments"]
+- !private ["SY", "findStringSwitchCase"]
+- !private ["SY", "get"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "returnCacheDataElseLoad"]
+- !private ["So20NSJSONReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "cachePolicy"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "percentEncodedQuery"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation13URLComponentsV", "init"]
+- !private ["10Foundation13URLComponentsV", "percentEncodedQuery"]
+- !private ["10Foundation13URLComponentsV", "url"]
+- !private ["10Foundation10URLRequestV", "cachePolicy"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["8URENData21UrlRequestConvertibleP", "Dictionary"]
+- !private ["8URENData21UrlRequestConvertibleP", "HttpMethod"]
+- !private ["8URENData21UrlRequestConvertibleP", "JSONSerialization"]
+- !private ["8URENData21UrlRequestConvertibleP", "URL"]
+- !private ["8URENData21UrlRequestConvertibleP", "URLComponents"]
+- ["8URENData21UrlRequestConvertibleP", "URLRequest"]
+- ["8URENData21UrlRequestConvertibleP", ""]
+- !private ["8URENData21UrlRequestConvertibleP", "_findStringSwitchCase"]
+- ["8URENData21UrlRequestConvertibleP", "asURLRequest"]
+- !private ["8URENData21UrlRequestConvertibleP", "data"]
+- !private ["8URENData21UrlRequestConvertibleP", "environment"]
+- !private ["8URENData21UrlRequestConvertibleP", "findStringSwitchCase"]
+- !private ["8URENData21UrlRequestConvertibleP", "generateUrlComponents"]
+- !private ["8URENData21UrlRequestConvertibleP", "method"]
+- !private ["8URENData21UrlRequestConvertibleP", "params"]
+- !private ["8URENData21UrlRequestConvertibleP", "path"]
+- !private ["So20NSJSONWritingOptionsV", "ArrayLiteralElement"]
+- !private ["So20NSJSONWritingOptionsV", "Element"]
+- !private ["So20NSJSONWritingOptionsV", "init"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "asDictionary"]
+- !private ["s21_ObjectiveCBridgeableP", "cachePolicy"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "percentEncodedQuery"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "Sa"
+- "8URENData22BaseRequestConvertibleC"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "So23NSURLRequestCachePolicyV"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- "8URENData9EndpointsO"
+- !private "8URENData11EnvironmentO"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "8URENData22BaseRequestConvertibleC16HTTPHeaderFieldsO"
+- "SH"
+- "8URENData10HttpHeaderV"
+- "8URENData10HttpMethodV"
+- !private "10Foundation11JSONEncoderC"
+- !private "So19NSJSONSerializationC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "8URENData9EndpointsO5PathsO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "10Foundation3URLV"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation10URLRequestV"
+- "8URENData21UrlRequestConvertibleP"
+- !private "So20NSJSONWritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/URENData/URENData/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/URENData.build/Debug-iphonesimulator/URENData.build/unextended-module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "586e72336c130476217b7940669cb5e7"

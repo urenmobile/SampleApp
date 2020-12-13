@@ -1,0 +1,442 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProductViewModel"
+provides-nominal:
+- "9SampleApp16ProductViewModelC"
+provides-member:
+- ["9SampleApp16ProductViewModelC", ""]
+provides-dynamic-lookup:
+- "didSelectItem"
+- "fetchAndLoadCoreData"
+- "getData"
+- "handle"
+- "item"
+- "items"
+- "numberOfItemsInSection"
+- "numberOfSections"
+- "productCoreData"
+- "productUseCase"
+- "reloadableChangesSubject"
+- "selectedProductSubject"
+- "willDisplayItem"
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseViewModel"
+- !private "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- !private "IntegerLiteralType"
+- "Never"
+- "PassthroughSubject"
+- "ProductCoreDataProvider"
+- "ProductDetailViewData"
+- !private "ProductRequest"
+- "ProductResponse"
+- "ProductUseCase"
+- "ProductViewModel"
+- "ProductViewModelItem"
+- "ReloadableChanges"
+- !private "StringLiteralType"
+- !private "cancelBag"
+- !private "fetchAndLoadCoreData"
+- !private "items"
+- !private "productCoreData"
+- !private "productUseCase"
+- !private "selectedProductSubject"
+- !private "state"
+depends-member:
+- !private ["11URENCombine14AnyCancellableC", "cancel"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "subscript"]
+- ["10URENDomain11BaseUseCaseC", ""]
+- !private ["10URENDomain11BaseUseCaseC", "execute"]
+- ["9SampleApp13BaseViewModelC", "IndexPath"]
+- ["9SampleApp13BaseViewModelC", "Int"]
+- ["9SampleApp13BaseViewModelC", "Never"]
+- ["9SampleApp13BaseViewModelC", "PassthroughSubject"]
+- ["9SampleApp13BaseViewModelC", "ProductCoreDataProvider"]
+- ["9SampleApp13BaseViewModelC", "ProductDetailViewData"]
+- !private ["9SampleApp13BaseViewModelC", "ProductRequest"]
+- ["9SampleApp13BaseViewModelC", "ProductResponse"]
+- ["9SampleApp13BaseViewModelC", "ProductUseCase"]
+- ["9SampleApp13BaseViewModelC", "ProductViewModelItem"]
+- ["9SampleApp13BaseViewModelC", "ReloadableChanges"]
+- ["9SampleApp13BaseViewModelC", ""]
+- !private ["9SampleApp13BaseViewModelC", "cancelBag"]
+- ["9SampleApp13BaseViewModelC", "didSelectItem"]
+- ["9SampleApp13BaseViewModelC", "fetchAndLoadCoreData"]
+- ["9SampleApp13BaseViewModelC", "getData"]
+- ["9SampleApp13BaseViewModelC", "handle"]
+- ["9SampleApp13BaseViewModelC", "init"]
+- ["9SampleApp13BaseViewModelC", "item"]
+- ["9SampleApp13BaseViewModelC", "items"]
+- ["9SampleApp13BaseViewModelC", "numberOfItemsInSection"]
+- ["9SampleApp13BaseViewModelC", "numberOfSections"]
+- ["9SampleApp13BaseViewModelC", "productCoreData"]
+- ["9SampleApp13BaseViewModelC", "productUseCase"]
+- ["9SampleApp13BaseViewModelC", "reloadableChangesSubject"]
+- ["9SampleApp13BaseViewModelC", "selectedProductSubject"]
+- !private ["9SampleApp13BaseViewModelC", "state"]
+- ["9SampleApp13BaseViewModelC", "willDisplayItem"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "compactMap"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "imageUrl"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "price"]
+- !private ["s7CVarArgP", "productDescription"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["11URENCombine11CancellableP", "cancel"]
+- ["11URENCombine11CancellableP", "init"]
+- !private ["11URENCombine11CancellableP", "send"]
+- !private ["11URENCombine11CancellableP", "sink"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "imageUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "price"]
+- !private ["s28CustomDebugStringConvertibleP", "productDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "imageUrl"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "price"]
+- !private ["s23CustomStringConvertibleP", "productDescription"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", ""]
+- !private ["Se", "compactMap"]
+- !private ["Se", "init"]
+- !private ["Se", "products"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["9SampleApp22DomainModelConvertibleP", "imageUrl"]
+- !private ["9SampleApp22DomainModelConvertibleP", "name"]
+- !private ["9SampleApp22DomainModelConvertibleP", "price"]
+- !private ["9SampleApp22DomainModelConvertibleP", "productDescription"]
+- !private ["SE", ""]
+- !private ["SE", "compactMap"]
+- !private ["SE", "init"]
+- !private ["SE", "products"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "imageUrl"]
+- !private ["SQ", "name"]
+- !private ["SQ", "price"]
+- !private ["SQ", "productDescription"]
+- !private ["SQ", "row"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["11URENCombine6FutureC", "sink"]
+- !private ["SH", ""]
+- !private ["SH", "compactMap"]
+- !private ["SH", "failure"]
+- !private ["SH", "imageUrl"]
+- !private ["SH", "name"]
+- !private ["SH", "price"]
+- !private ["SH", "productDescription"]
+- !private ["SH", "row"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10URENDomain5ModelP", "init"]
+- !private ["10URENDomain5ModelP", "products"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So20NSFetchRequestResultP", "imageUrl"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "price"]
+- !private ["So20NSFetchRequestResultP", "productDescription"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "imageUrl"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "price"]
+- !private ["So15NSManagedObjectC", "productDescription"]
+- !private ["So8NSObjectC", "imageUrl"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "price"]
+- !private ["So8NSObjectC", "productDescription"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "imageUrl"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "price"]
+- !private ["So8NSObjectP", "productDescription"]
+- !private ["7Combine16ObservableObjectP", "imageUrl"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["7Combine16ObservableObjectP", "price"]
+- !private ["7Combine16ObservableObjectP", "productDescription"]
+- ["11URENCombine18PassthroughSubjectC", "init"]
+- !private ["11URENCombine18PassthroughSubjectC", "send"]
+- !private ["11URENCombine18PassthroughSubjectC", "sink"]
+- !private ["9SampleApp23ProductCoreDataProviderP", "item"]
+- !private ["9SampleApp23ProductCoreDataProviderP", "numberOfItemsInSection"]
+- !private ["9SampleApp23ProductCoreDataProviderP", "numberOfSection"]
+- !private ["9SampleApp23ProductCoreDataProviderP", "performFetch"]
+- !private ["9SampleApp23ProductCoreDataProviderP", "reloadableChangesSubject"]
+- !private ["9SampleApp21ProductDetailViewDataC", "init"]
+- !private ["9SampleApp13ProductEntityC", "imageUrl"]
+- !private ["9SampleApp13ProductEntityC", "name"]
+- !private ["9SampleApp13ProductEntityC", "price"]
+- !private ["9SampleApp13ProductEntityC", "productDescription"]
+- !private ["10URENDomain14ProductRequestV", "init"]
+- !private ["10URENDomain15ProductResponseV", "products"]
+- !private ["10URENDomain14ProductUseCaseC", "execute"]
+- ["9SampleApp16ProductViewModelC", "IndexPath"]
+- ["9SampleApp16ProductViewModelC", "Int"]
+- ["9SampleApp16ProductViewModelC", "Never"]
+- ["9SampleApp16ProductViewModelC", "PassthroughSubject"]
+- ["9SampleApp16ProductViewModelC", "ProductCoreDataProvider"]
+- ["9SampleApp16ProductViewModelC", "ProductDetailViewData"]
+- !private ["9SampleApp16ProductViewModelC", "ProductRequest"]
+- ["9SampleApp16ProductViewModelC", "ProductResponse"]
+- ["9SampleApp16ProductViewModelC", "ProductUseCase"]
+- ["9SampleApp16ProductViewModelC", "ProductViewModelItem"]
+- ["9SampleApp16ProductViewModelC", "ReloadableChanges"]
+- !private ["9SampleApp16ProductViewModelC", "cancelBag"]
+- ["9SampleApp16ProductViewModelC", "deinit"]
+- ["9SampleApp16ProductViewModelC", "didSelectItem"]
+- !private ["9SampleApp16ProductViewModelC", "fetchAndLoadCoreData"]
+- ["9SampleApp16ProductViewModelC", "getData"]
+- !private ["9SampleApp16ProductViewModelC", "handle"]
+- ["9SampleApp16ProductViewModelC", "init"]
+- ["9SampleApp16ProductViewModelC", "item"]
+- !private ["9SampleApp16ProductViewModelC", "items"]
+- ["9SampleApp16ProductViewModelC", "numberOfItemsInSection"]
+- ["9SampleApp16ProductViewModelC", "numberOfSections"]
+- !private ["9SampleApp16ProductViewModelC", "productCoreData"]
+- !private ["9SampleApp16ProductViewModelC", "productUseCase"]
+- ["9SampleApp16ProductViewModelC", "reloadableChangesSubject"]
+- ["9SampleApp16ProductViewModelC", "selectedProductSubject"]
+- !private ["9SampleApp16ProductViewModelC", "state"]
+- ["9SampleApp16ProductViewModelC", "willDisplayItem"]
+- !private ["9SampleApp20ProductViewModelItemV", "init"]
+- ["11URENCombine9PublisherP", ""]
+- ["11URENCombine9PublisherP", "init"]
+- !private ["11URENCombine9PublisherP", "send"]
+- !private ["11URENCombine9PublisherP", "sink"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["9SampleApp5StateO", "loading"]
+- !private ["9SampleApp5StateO", "populate"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["11URENCombine7SubjectP", "init"]
+- !private ["11URENCombine7SubjectP", "send"]
+- !private ["11URENCombine7SubjectP", "sink"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10URENDomain7UseCaseP", "execute"]
+- ["9SampleApp9ViewModelP", "PassthroughSubject"]
+- !private ["9SampleApp9ViewModelP", "ProductDetailViewData"]
+- !private ["9SampleApp9ViewModelP", "ProductRequest"]
+- !private ["9SampleApp9ViewModelP", "ProductViewModelItem"]
+- ["9SampleApp9ViewModelP", ""]
+- !private ["9SampleApp9ViewModelP", "cancelBag"]
+- !private ["9SampleApp9ViewModelP", "didSelectItem"]
+- !private ["9SampleApp9ViewModelP", "fetchAndLoadCoreData"]
+- !private ["9SampleApp9ViewModelP", "getData"]
+- !private ["9SampleApp9ViewModelP", "handle"]
+- !private ["9SampleApp9ViewModelP", "init"]
+- !private ["9SampleApp9ViewModelP", "items"]
+- !private ["9SampleApp9ViewModelP", "productCoreData"]
+- !private ["9SampleApp9ViewModelP", "productUseCase"]
+- !private ["9SampleApp9ViewModelP", "reloadableChangesSubject"]
+- !private ["9SampleApp9ViewModelP", "selectedProductSubject"]
+- !private ["9SampleApp9ViewModelP", "state"]
+- !private ["9SampleApp9ViewModelP", "willDisplayItem"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageUrl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "price"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productDescription"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "11URENCombine14AnyCancellableC"
+- !private "Sa"
+- "10URENDomain11BaseUseCaseC"
+- "9SampleApp13BaseViewModelC"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- "11URENCombine11CancellableP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "9SampleApp22DomainModelConvertibleP"
+- !private "SE"
+- !private "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "11URENCombine6FutureC"
+- !private "SH"
+- !private "10Foundation9IndexPathV"
+- !private "10URENDomain5ModelP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7Combine16ObservableObjectP"
+- "11URENCombine18PassthroughSubjectC"
+- !private "9SampleApp23ProductCoreDataProviderP"
+- !private "9SampleApp21ProductDetailViewDataC"
+- !private "9SampleApp13ProductEntityC"
+- !private "10URENDomain14ProductRequestV"
+- !private "10URENDomain15ProductResponseV"
+- !private "10URENDomain14ProductUseCaseC"
+- "9SampleApp16ProductViewModelC"
+- !private "9SampleApp20ProductViewModelItemV"
+- "11URENCombine9PublisherP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "9SampleApp5StateO"
+- !private "s27StringInterpolationProtocolP"
+- "11URENCombine7SubjectP"
+- !private "s16TextOutputStreamP"
+- !private "10URENDomain7UseCaseP"
+- "9SampleApp9ViewModelP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Modules/URENData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/URENCombine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Modules/URENCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Network.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/URENDomain.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Headers/URENData.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Headers/URENCore.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Headers/URENData-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Headers/URENCombine-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Headers/URENCore-Swift.h"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Headers/URENDomain-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENData.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCombine.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENCore.framework/Modules/module.modulemap"
+- "/Users/remziyildirim/Documents/XcodeProject/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/URENDomain.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "26426d482bdcad59a6d594a97930eaac"
